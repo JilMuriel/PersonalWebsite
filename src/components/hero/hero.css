@@ -1,0 +1,42 @@
+body {
+  overflow-x: hidden;
+}
+.hero-img {
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 60%;
+  overflow: hidden;
+}
+.bg-svg {
+  position: absolute;
+  height: 2000px;
+  top: -1200px;
+  left: 50px;
+  bottom: -100px;
+  right: -1700px;
+}
+.hero-banner {
+  position: relative;
+  height: 500px;
+  z-index: 1000;
+  align-self: center;
+  width: auto;
+  margin-top: 240px;
+  margin-left: 150px;
+}
+
+.navbar {
+  z-index: 10000;
+}
+
+.hero-object__left {
+  position: relative;
+  left: 300px;
+}
+.hero-object__right {
+  position: relative;
+  left: 500px;
+  top: 60px;
+}
